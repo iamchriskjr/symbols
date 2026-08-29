@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "iamchriskjr.symbols",
+  "name": "Symbols",
+  "version": "1.0.0",
+  "author": "iamchriskjr",
+  "license": "MIT",
+  "description": "Quick Unicode and symbol picker with favorites, recents, search, and instant auto-paste",
+  "kinds": [
+    "bar-widget"
+  ],
+  "activation": "on-demand",
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Symbols",
+    "description": "Unicode symbol picker with favorites and auto-paste into active windows",
+    "category": "Utilities",
+    "defaultSection": "right",
+    "allowMultiple": false
+  }
+}
